@@ -1,5 +1,6 @@
 package com.Login.LOGIN.config;
 
+import com.Login.LOGIN.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -33,6 +34,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         .defaultSuccessUrl("/") // 로그인 성공시 연결되는 주소
                 .and()
                     .logout() // 로그아웃 관련 설정
+
                         .logoutSuccessUrl("/login") // 로그아웃 성공시 연결되는 주소
                         .invalidateHttpSession(true) // 로그아웃시 저장해 둔 세션 날리기
         ;
