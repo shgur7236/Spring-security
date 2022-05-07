@@ -1,4 +1,4 @@
-package com.Login.LOGIN.config.domain.user;
+package com.Login.LOGIN.domain.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

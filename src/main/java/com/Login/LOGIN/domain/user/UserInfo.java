@@ -1,4 +1,4 @@
-package com.Login.LOGIN.config.domain.user;
+package com.Login.LOGIN.domain.user;
 
 import javax.persistence.*;
 import lombok.AccessLevel;

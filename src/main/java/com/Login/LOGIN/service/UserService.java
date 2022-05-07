@@ -1,7 +1,7 @@
 package com.Login.LOGIN.service;
 
-import com.Login.LOGIN.config.domain.user.UserInfo;
-import com.Login.LOGIN.config.domain.user.UserRepository;
+import com.Login.LOGIN.domain.user.UserInfo;
+import com.Login.LOGIN.domain.user.UserRepository;
 import com.Login.LOGIN.web.dto.UserInfoDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
